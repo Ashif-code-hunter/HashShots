@@ -25,9 +25,7 @@ class _NewsState extends State<News> {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   GestureDetector(
-                    onTap: (){
-                      Navigator.pop(context);
-                    },
+                    onTap: (){},
                     child: const Icon(
                       Icons.arrow_back,
                       size: 30,
