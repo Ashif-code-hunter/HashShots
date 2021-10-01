@@ -1,4 +1,4 @@
-# profile
+# HashShorts
 
 A new Flutter project.
 
