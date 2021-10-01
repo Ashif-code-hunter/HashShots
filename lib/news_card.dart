@@ -24,7 +24,7 @@ class NewsCard extends StatelessWidget {
         Container(
           height: MediaQuery.of(context).size.height / 1.8,
           decoration: BoxDecoration(
-	    borderRadius: BorderRadius.circular(14.0),
+            borderRadius: BorderRadius.circular(14.0),
             color: Colors.white,
             gradient: LinearGradient(
               begin: FractionalOffset.topCenter,

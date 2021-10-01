@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'profile.dart';
 import 'news.dart';
 void main() {
   runApp(MyApp());
@@ -11,11 +10,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(fontFamily: 'Poppins'),
-    initialRoute: '/',
-    routes: {
-    '/': (context) => Profile(),
-    '/NewsScreen':(context) => News(),
-    },
+    home: News(),
       debugShowCheckedModeBanner: false,
     );
   }
